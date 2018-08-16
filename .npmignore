@@ -3,3 +3,4 @@ example/
 .DS_Store
 intro.png
 *.log
+.idea
