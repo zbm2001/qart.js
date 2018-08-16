@@ -3,7 +3,7 @@ class Util {
     var canvas = document.createElement('canvas');
     canvas.width = size;
     canvas.height = size;
-    canvas.getContext('2d').drawImage(image, 0, 0, size, size);
+    canvas.getContext('2d').drawImage(image, 0, 0, size, size, 0, 0, size, size);
     return canvas;
   }
 
